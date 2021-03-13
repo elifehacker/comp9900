@@ -1,0 +1,12 @@
+Week1
+
+In week 1, I created a group and gathered 5 new members. It was later downsized to 5 members to meet the requirement of the course. I proposed doing a customer project initially, which was a project to do landscape recognitions and find correlation to the GDP output. It received encouragement from our tutor Iwan and recognition from the team. However, Iwan also suggested the custom project should “focus on end-user / customer / business outcome”. The custom project fell short on business applications hence the team decided to go with project 1 instead. Project 1 is about building a chatbot. The team researched on the topic to affirm that we have the capacity to do it. We also discussed the domains of the chatbot. Entertainment was chosen among others such as medical and education because it is less bounded by potential legal and ethical issues. Then we decided to do further learnings on the tools such as dialog flow to be prepared once the implementation starts. 
+
+Week2
+
+I researched on the dataset that could be used for the entertainment domain. I found a dataset of youtube uses tensorflow which is an industry recognized format invented by Google. A tensorflow file is not readable soI explored further and found the sample code to read it. I also found a dataset of Netflix which uses csv. These information have been documented and shared within the team. In the team meeting, I took note of what Iwan said because one member could not make it to the tutorial. The following day, the team gathered again and discussed and confirmed the 8 objectives. 
+
+Week3
+
+This week I looked into using Facebook’s framework for the chatting service. I followed the tutorial and set up a developer account. However when it comes to running the tunneling application connecting from the local server to the facebook page, there were two authentication exceptions. Same issue has been reported but no valid solution was found online and in the development forum. Hence I proposed using flask to build a simple chat web service as a backup plan for the team while another team member explored the option to use Dialog Flow. Eventually we decided to go with the latter. The team also worked on the proposal document together. I took part in making the architecture diagram and the user story mockups. 
+
