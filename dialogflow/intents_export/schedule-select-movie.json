@@ -1,0 +1,203 @@
+{
+  "id": "088680f2-046d-4c8a-bc7b-7e8759a6a2be",
+  "name": "schedule-select-movie",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "schedule-movie-confirm",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "date",
+          "dataType": "@sys.date",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "what date?"
+          ],
+          "value": "$date",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "time",
+          "dataType": "@sys.time",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "what time?"
+          ],
+          "value": "$time",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "movie",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "which movie?"
+          ],
+          "value": "$movie",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "friend",
+          "dataType": "@sys.person",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "with whom?"
+          ],
+          "value": "$friend",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Confirm watching movie $movie with friend $friend on $date at $time ?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Schedule watching  ",
+          "userDefined": false
+        },
+        {
+          "text": "movie name",
+          "userDefined": true,
+          "alias": "movie",
+          "meta": "@sys.any"
+        },
+        {
+          "text": " with ",
+          "userDefined": false
+        },
+        {
+          "text": "Dr Who",
+          "userDefined": true,
+          "alias": "friend",
+          "meta": "@sys.person"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "at 10 AM",
+          "userDefined": true,
+          "alias": "time",
+          "meta": "@sys.time"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "tomorrow",
+          "userDefined": true,
+          "alias": "date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "a65cfc02-188d-4e0f-9675-2087d98bb62e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I would like to watch a movie ",
+          "userDefined": false
+        },
+        {
+          "text": "name",
+          "userDefined": true,
+          "alias": "movie",
+          "meta": "@sys.any"
+        },
+        {
+          "text": " with my friend ",
+          "userDefined": false
+        },
+        {
+          "text": "name",
+          "userDefined": true,
+          "alias": "friend",
+          "meta": "@sys.person"
+        },
+        {
+          "text": " at ",
+          "userDefined": false
+        },
+        {
+          "text": "3 PM",
+          "userDefined": true,
+          "alias": "time",
+          "meta": "@sys.time"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "today",
+          "userDefined": true,
+          "alias": "date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "2123e3a2-6aca-4be9-b735-e1c880b22809",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

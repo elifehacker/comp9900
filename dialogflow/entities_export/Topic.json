@@ -1,0 +1,29 @@
+{
+  "isRegexp": false,
+  "isEnum": true,
+  "allowFuzzyExtraction": false,
+  "name": "Topic",
+  "automatedExpansion": true,
+  "entries": [
+    {
+      "value": "movie recommendation",
+      "synonyms": [
+        "movie recommendation"
+      ]
+    },
+    {
+      "value": "profile",
+      "synonyms": [
+        "profile"
+      ]
+    },
+    {
+      "value": "account",
+      "synonyms": [
+        "account"
+      ]
+    }
+  ],
+  "id": "09c52596-9546-40ac-b92e-c78dd822f697",
+  "isOverridable": false
+}
