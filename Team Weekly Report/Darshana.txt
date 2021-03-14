@@ -1,0 +1,13 @@
+Week 1
+Found a group to join. Discussed with my group members and finalised whether we wanted to go for custom project or one of the given projects.
+
+Week 2
+We discussed among ourselves and finalised a topic for our project. I read some information related to our project's topic - chatbots. I also went through some of the research papers related to chatbots to find out the latest developments in that field so as to give us an idea for our objectives. We also decided which industry we would be developing our chatbot for. We reached a common conclusion that we would be designing our chatbot for the entertainment industry after disucssions and weighing both pros and cons of developing chatbot for other industries such as education and travel/tourism.
+
+Week 3
+I wrote the background, objectives and references in the project proposal. We came up with a basic design for our chatbot.
+
+Week 4
+I worked on the dialogue/conversation flow for our chatbot - FlixBot. I read materials related to Dialogflow and watched videos on YouTube demonstrating how to schedule appointments and integrate Dialogflow with Google calendar which we require for our 7th objective in the project proposal.
+
+Week 5
