@@ -10,3 +10,7 @@ Week3
 
 This week I looked into using Facebook’s framework for the chatting service. I followed the tutorial and set up a developer account. However when it comes to running the tunneling application connecting from the local server to the facebook page, there were two authentication exceptions. Same issue has been reported but no valid solution was found online and in the development forum. Hence I proposed using flask to build a simple chat web service as a backup plan for the team while another team member explored the option to use Dialog Flow. Eventually we decided to go with the latter. The team also worked on the proposal document together. I took part in making the architecture diagram and the user story mockups. 
 
+Week4
+
+This week I started playing with the Dialog Flow service. I was able to follow the documentation building a chatbot with the sample code successfully. Then I kept reading source code and the documents learning about how to configure it. By the end of the week. I was able to 1. load the dataset file into gcp datastore 2. give a random movie recommendation in the chatbot 3. create new intents that schedule session to watch a movie with a friend in the chatbot. The changes were done in the GCP console, DialogFlow and in the GCP datalab which run a tunneling app and a flask app. The flask app uses a webhook connecting to the chatbot. It also talk to the datastore nosql backend. This allows flexibilities and creativities to the project.  
+
