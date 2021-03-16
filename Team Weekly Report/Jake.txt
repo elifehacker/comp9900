@@ -1,0 +1,18 @@
+Week 1
+
+After the team formed, we briefly decided to work on the custom project that Steven came up: An reaserch-like project that reveals the relationship between GDP and cardinality of infrustructures among the whole world.
+I asked a few questions regarding the way we implement the project, like how we calculate the density of infrustructure and the theoretical base of the calculation, and what will the data structure be like roughly.
+After a few rounds of intense discussions, we came up with the conclusion that we may not be able to predict GDP only with the amount of infrustructures. Thus, we may have to choose another project topic from the 6 given topics.
+
+Week 2
+
+We decide to do the chatbot project eventually, and after a few rounds of discussions, we decide to work on the amusement topic or stream media websites, for example Netflix.
+I came up with two objects, one is to generate a user report for each user, another is to recommend  movies or videos based on user similarity or their own tastes.
+
+Week 3 
+
+We keep modifying the proposal, and hand in before the deadline.
+
+Week 4
+
+Team members did a lot of reaserch on the dialogflow back-end, I made a simple webpage for the project demo.
