@@ -11,3 +11,6 @@ Week 4
 I worked on the dialogue/conversation flow for our chatbot - FlixBot. I read materials related to Dialogflow and watched videos on YouTube demonstrating how to schedule appointments and integrate Dialogflow with Google calendar which we require for our 7th objective in the project proposal.
 
 Week 5
+- I referred to a few more articles and resarch papers on how to create a conversation/dialogue flow between the chatbot and the user. 
+- I created a flow chart depicting the entire flow of conversation between the chatbot and the user right from greeting the user to solving the user's queries or helping them with what they want to watch or assisting them with upgrading their plans or updating their payment details or even scheduling a movie with their friends. 
+- I also analysed various potential scenarios and put all possible conversations that can take place between the user and the chatbot in a tabular format to depict all possible ways the chatbot can reply to the user in.
