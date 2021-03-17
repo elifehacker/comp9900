@@ -1,0 +1,180 @@
+{
+  "id": "e8c6ec13-8079-4357-b0a3-09322ce67465",
+  "name": "Bye/Thanks",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ByeThanks-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Did you enjoy our service today?"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "message": "Did you enjoy our service today?",
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "condition": "",
+          "customizeAudio": false,
+          "items": [
+            {
+              "displayText": "",
+              "textToSpeech": "Are you liking our service?",
+              "ssml": ""
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Yes"
+            },
+            {
+              "title": "No"
+            }
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "bye bye",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dba424f2-e695-440f-858e-26c1315feeb8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "see ya",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ff383111-bc78-4de8-9003-5be8093d6495",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "byebye",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f08d6e2c-b70e-4acf-9c02-45ea6cb02a3f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "goodbye",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2de621a0-9b97-4e61-9226-1669db017b94",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "bye",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e7a2ae7b-51fc-4b23-8c5e-4fd1f06ac6f9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "thanks",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3f5ddefb-45b4-4b4f-b3f2-26e1a4ad63df",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "thank you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cf672a0e-7b7e-4c66-a0be-c3a4a0a48da3",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
