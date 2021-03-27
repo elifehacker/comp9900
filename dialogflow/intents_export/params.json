@@ -1,0 +1,86 @@
+{
+  "id": "0bf6b366-7107-454f-acdb-3de9139561d1",
+  "name": "params",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "logged-in"
+  ],
+  "contexts": [
+    "logged-in"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "logged-in",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "params #logged-in.loggedin_user"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "showparams",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bc3a1c12-7f1d-4fc0-bf1a-5ef94af2f146",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "show params",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e9c9779b-ff8b-4f94-a27b-66608d3e66c0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "show parameters",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "08cb6203-5586-4863-97d0-07797cb22934",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}
