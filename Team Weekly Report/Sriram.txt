@@ -11,19 +11,45 @@ Week 1 Report
 Week 2 Report
 -------------
 1. I set up the project in JIRA
-2. Organized workshops and drove discussion to agree on the 8 objectives we can acheive as a team including novel ideas
+2. Organized workshops and drove discussion to agree on the 8 objectives we can achieve as a team including novel ideas
 3. Set up the product backlog for the project
-4. Captured the advantages and disadvantages for implementing a Chatbot in the Finacial, Hospitality or Education Industry
+4. Captured the advantages and disadvantages for implementing a Chatbot in the Financial, Hospitality or Education Industry
 5. Researched on various chatbot trends and presented evidences to select a chatbot for the entertainment industry
 6. Initiated discussions to define the high level architecture flow ad design for the project
-7. Started exploring both Flas to build a a simple chat web service as well as Dialog Flow
+7. Started exploring both Flask to build a simple chat web service as well as Dialog Flow
 
 Week 3 Report
 -------------
 1. Documented requirements at a high level as JIRA user stories
 2. Explained the team the method of running sprints in JIRA
 3. Created project roadmap, sprint schedule, product backlog, initial sprint backlog and project plan using Gantt Chart
-4. Collated information from entire team and took responsibility to format and create the propoal document (including the final submission)
+4. Collated information from entire team and took responsibility to format and create the proposal document (including the final submission)
 5. Organized workshops and steered discussions to agree on a high level project design
 6. After assessing the feasibility of a few options, we as a team we agreed to go with Dialog Flow
 7. Completed all ground work and formalities to kick start Sprint 1 from Week 4
+
+Week 4 Report
+-------------
+1. Conducted a Sprint planning session for Sprint 1
+2. Organized scrum meetings for 3 times a week excluding the lab. So we meet 4 times a week to discuss progress
+3. Formulated and provided inputs for designing the conversation flow for Flixbot
+4. Read through the Dialog Flow documentation and did a test set up of chatbot locally
+5. Tested some intents and researched materials to provide inputs to the dialogue flow structure
+
+Week 5 Report
+-------------
+1. Created a power point presentation for the project Demo scheduled for week 5
+2. Presented the Demo along with Steven during Week 5 Lab 
+3. Tested the Chatbot and the web interface created for the demo and provided various feedback and improvement ideas
+4. Completed Sprint 1 and conducted the sprint retrospective and collated feedback from the entire team
+5. Researched a few options for implementing the flow structure of FAQ module
+6. Worked with another team member to create possible conversation flow between user and chatbot and had that documented
+
+Week 6 Report
+-------------
+1. Conducted Sprint planning session for Sprint 2
+2. Organize scrum meetings in Sprint 2 to track progress and clear roadblocks for the team including conflict resolution
+3. Created and documented the Sprint 1 retrospective report
+4. Provided inputs to create the data model for the project database
+5. Conducted sessions and steered discussions to agree on a design for the User Login and authentication mechanism for our Chatbot
+6. Explored Wix platform and suggested possible web pages we needed to create for subscription upgrades etc.
