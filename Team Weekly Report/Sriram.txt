@@ -1,2 +1,29 @@
 Week 1 Report
-1. 
+-------------
+1. We formed a group and got to know each other. 
+2. Understood the skillset of each team member and defined where each one of us could contribute.
+3. I nominated myself as the scrum master for the team; also playing the role of a business analyst and Tester
+4. Assigned roles to the entire team based on each of the team member's skillset
+5. A custom project was proposed by one of our team members
+6. I organized various catch up's to explore the possibility including obtaining feedback from the mentor
+7. Finally we decided to go with project 1 - Chatbots
+
+Week 2 Report
+-------------
+1. I set up the project in JIRA
+2. Organized workshops and drove discussion to agree on the 8 objectives we can acheive as a team including novel ideas
+3. Set up the product backlog for the project
+4. Captured the advantages and disadvantages for implementing a Chatbot in the Finacial, Hospitality or Education Industry
+5. Researched on various chatbot trends and presented evidences to select a chatbot for the entertainment industry
+6. Initiated discussions to define the high level architecture flow ad design for the project
+7. Started exploring both Flas to build a a simple chat web service as well as Dialog Flow
+
+Week 3 Report
+-------------
+1. Documented requirements at a high level as JIRA user stories
+2. Explained the team the method of running sprints in JIRA
+3. Created project roadmap, sprint schedule, product backlog, initial sprint backlog and project plan using Gantt Chart
+4. Collated information from entire team and took responsibility to format and create the propoal document (including the final submission)
+5. Organized workshops and steered discussions to agree on a high level project design
+6. After assessing the feasibility of a few options, we as a team we agreed to go with Dialog Flow
+7. Completed all ground work and formalities to kick start Sprint 1 from Week 4
