@@ -1,5 +1,5 @@
 {
-  "id": "088680f2-046d-4c8a-bc7b-7e8759a6a2be",
+  "id": "0a6578a7-e6eb-4adc-b66c-50c8ac33e35c",
   "name": "schedule-select-movie",
   "auto": true,
   "condition": "",
@@ -83,6 +83,19 @@
           ],
           "value": "$friend",
           "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "topic",
+          "dataType": "@Topic",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "select",
+          "outputDialogContexts": []
         }
       ],
       "defaultResponsePlatforms": {},
@@ -109,7 +122,7 @@
           "userDefined": false
         },
         {
-          "text": "movie name",
+          "text": "movie Name",
           "userDefined": true,
           "alias": "movie",
           "meta": "@sys.any"
@@ -157,7 +170,7 @@
           "userDefined": false
         },
         {
-          "text": "name",
+          "text": "Name",
           "userDefined": true,
           "alias": "movie",
           "meta": "@sys.any"
@@ -167,7 +180,7 @@
           "userDefined": false
         },
         {
-          "text": "name",
+          "text": "Name",
           "userDefined": true,
           "alias": "friend",
           "meta": "@sys.person"
@@ -199,5 +212,5 @@
     }
   ],
   "webhookForSlotFilling": false,
-  "webhookUsed": true
+  "webhookUsed": false
 }
