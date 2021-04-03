@@ -21,3 +21,7 @@ This week I delivered a demo with the rest of team, showcasing what we have achi
 Week6
 
 This week I implemented user log in feature in from the chatbot by validating its username and password in the backend. It was done by checking the credential against saved data in the gcp datastore. Then the backend webhook sets a context parameter which could be retrieved in the chatbot in further conversations. 
+
+Week7
+
+This week I integrated the feature I implemented with the frontend Janvi implemented. I also made the meeting scheduling checking the relationship between users before sending out the invite. This was done by checking against the tables in GCP datastore. I also updated the python code that sends email so the meeting invite has the correct time and title. Aside from this, I also walked Janvi through how to use git. After convincing each team member should own the feature that each is developing rathering than having me incharge of the backend alone, I walked the team through the backend I worked on during the lab session, so they could also be autonomous. 
