@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
@@ -15,7 +9,7 @@ import os,datetime
 #https://stackoverflow.com/questions/4823574/sending-meeting-invitations-with-python 
 #https://stackoverflow.com/questions/57141694/why-encode-base64-give-me-typeerror-expected-bytes-like-object-not-nonetype/62255629#62255629
 
-def send_email(attendees, chatroom_url):
+def send_email(attendees, chatroom_url, movie, date, time):
   CRLF = "\r\n"
   login = "chatbot9900@gmail.com"
   password = "Chat#9900"
@@ -23,10 +17,11 @@ def send_email(attendees, chatroom_url):
   organizer = "ORGANIZER;CN=organiser:mailto:chatbot9900"+CRLF+" @gmail.com"
   fro = "Chatbot9900 <chatbot9900@gmail.com>"
 
-  ddtstart = datetime.datetime.now()
-  dtoff = datetime.timedelta(days = 1)
-  dur = datetime.timedelta(hours = 1)
-  ddtstart = ddtstart +dtoff
+  argdt = date+"T"+time
+  ddtstart = datetime.datetime.strptime(''.join(argdt.rsplit(':', 1)), "%Y-%m-%dT%H:%M:%S%z")
+  #dtoff = datetime.timedelta(days = 1)
+  dur = datetime.timedelta(hours = 2)
+  #ddtstart = ddtstart +dtoff
   dtend = ddtstart + dur
   dtstamp = datetime.datetime.now().strftime("%Y%m%dT%H%M%SZ")
   dtstart = ddtstart.strftime("%Y%m%dT%H%M%SZ")
@@ -40,9 +35,9 @@ def send_email(attendees, chatroom_url):
   ical+="METHOD:REQUEST"+CRLF+"BEGIN:VEVENT"+CRLF+"DTSTART:"+dtstart+CRLF+"DTEND:"+dtend+CRLF+"DTSTAMP:"+dtstamp+CRLF+organizer+CRLF
   ical+= "UID:FIXMEUID"+dtstamp+CRLF
   ical+= attendee+"CREATED:"+dtstamp+CRLF+description+"LAST-MODIFIED:"+dtstamp+CRLF+"LOCATION:"+CRLF+"SEQUENCE:0"+CRLF+"STATUS:CONFIRMED"+CRLF
-  ical+= "SUMMARY:test "+ddtstart.strftime("%Y%m%d @ %H:%M")+CRLF+"TRANSP:OPAQUE"+CRLF+"END:VEVENT"+CRLF+"END:VCALENDAR"+CRLF
+  ical+= "SUMMARY:movie "+movie+" "+ddtstart.strftime("%Y%m%d @ %H:%M")+CRLF+"TRANSP:OPAQUE"+CRLF+"END:VEVENT"+CRLF+"END:VCALENDAR"+CRLF
 
-  eml_body = "Chatroom url: "+chatroom_url+" \nEmail body visible in the invite of outlook and outlook.com but not google calendar"
+  eml_body = "Chatroom url: "+chatroom_url
   eml_body_bin = "This is the email body in binary - two steps"
   msg = MIMEMultipart('mixed')
   msg['Reply-To']=fro
@@ -76,10 +71,3 @@ def send_email(attendees, chatroom_url):
   mailServer.login(login, password)
   mailServer.sendmail(fro, attendees, msg.as_string())
   mailServer.close()
-
-
-# In[ ]:
-
-
-
-
