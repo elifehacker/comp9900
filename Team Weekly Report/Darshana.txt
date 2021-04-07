@@ -33,9 +33,9 @@ Week 6
 Week 7
 - Worked on the front-end part of the project.
 - Created new web pages on WIX website builder.
-- Edited content that goes in the web pages; tried to make it as realistic as possible by taking inspiration from the Netflix website.
+- Edited content that goes in the web pages; tried to make it as realistic as possible by taking inspiration from the official website of Netflix.
 
 Week 8
 - Prepared for Progressive Demo B.
-- Integrated the web pages created with our chatbot - FlixBot.
+- Integrated the web pages created with our chatbot - FlixBot with Janvi.
 - Attended the demo with all my group members during Week 8 lab on Wednesday.
