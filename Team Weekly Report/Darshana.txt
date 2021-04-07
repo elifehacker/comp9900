@@ -1,14 +1,25 @@
 Week 1
-Found a group to join. Discussed with my group members and finalised whether we wanted to go for custom project or one of the given projects.
+- Found a group to join. 
+- Discussed with my group members and finalised whether we wanted to go for custom project or one of the given projects.
 
 Week 2
-We discussed among ourselves and finalised a topic for our project. I read some information related to our project's topic - chatbots. I also went through some of the research papers related to chatbots to find out the latest developments in that field so as to give us an idea for our objectives. We also decided which industry we would be developing our chatbot for. We reached a common conclusion that we would be designing our chatbot for the entertainment industry after disucssions and weighing both pros and cons of developing chatbot for other industries such as education and travel/tourism.
+- We discussed among ourselves and finalised a topic for our project. 
+- I read some information related to our project's topic - chatbots. 
+- I also went through some of the research papers related to chatbots to find out the latest developments in that field so as to give us an idea for our objectives. 
+- We also decided which industry we would be developing our chatbot for. 
+- We reached a common conclusion that we would be designing our chatbot for the entertainment industry after disucssions and weighing both pros and cons of developing chatbot for other industries such as education and travel/tourism.
 
 Week 3
-I wrote the background, objectives and references in the project proposal. We came up with a basic architecture design for our chatbot. We talked about whether we want to use Facebook for creating our chatbot or Dialogflow. I tried experimenting with creating a chatbot by using the Facebook's platform for developers. I also explored Dialogflow to understand how it works. After group discussion, we decided to go with Dialogflow.
+- I wrote the background, objectives and references in the project proposal. 
+- We came up with a basic architecture design for our chatbot. 
+- We talked about whether we want to use Facebook for creating our chatbot or Dialogflow. 
+- I tried experimenting with creating a chatbot by using the Facebook's platform for developers. 
+- I also explored Dialogflow to understand how it works. 
+- After group discussion, we decided to go with Dialogflow.
 
 Week 4
-I worked on the dialogue/conversation flow for our chatbot - FlixBot. I read materials related to Dialogflow and watched videos on YouTube demonstrating how to schedule appointments and integrate Dialogflow with Google calendar which we require for our 7th objective in the project proposal.
+- I worked on the dialogue/conversation flow for our chatbot - FlixBot. 
+- I read materials related to Dialogflow and watched videos on YouTube demonstrating how to schedule appointments and integrate Dialogflow with Google calendar which we require for our 7th objective in the project proposal.
 
 Week 5
 - I referred to a few more articles and resarch papers on how to create a conversation/dialogue flow between the chatbot and the user. 
@@ -16,6 +27,15 @@ Week 5
 - I also analysed various potential scenarios and put all possible conversations that can take place between the user and the chatbot in a tabular format to depict all possible ways the chatbot can reply to the user in.
 
 Week 6
-I'm working on the frontend part of our project to create web pages that our chatbot redirects to for example, payments page, plan upgrade page, etc. I'm creating these web pages with the help of Wix platform.
+- I'm working on the frontend part of our project to create web pages that our chatbot redirects to for example, payments page, plan upgrade page, etc. 
+- I'm creating these web pages with the help of Wix platform.
 
 Week 7
+- Worked on the front-end part of the project.
+- Created new web pages on WIX website builder.
+- Edited content that goes in the web pages; tried to make it as realistic as possible by taking inspiration from the Netflix website.
+
+Week 8
+- Prepared for Progressive Demo B.
+- Integrated the web pages created with our chatbot - FlixBot.
+- Attended the demo with all my group members during Week 8 lab on Wednesday.
