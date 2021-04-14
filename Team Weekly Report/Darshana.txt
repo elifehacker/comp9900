@@ -5,11 +5,11 @@ Student ID: z5298610
 
 Week 1
 - Interacted with students who had taken IT Project during the first lecture via Blackboard. Communicated and collaborated with some of the students I had interacted with to form a group.
-- Discussed with my group members and finalised whether we wanted to go for custom project or one of the given projects.
+- Discussed with my group members and finalised whether we wanted to go for custom project or one of the given projects. Janvi and I wanted to work on one of the given projects related to chatbot. We had a group discussion on Teams where we discussed the pros and cons of working on a custom project and chatbot-related project. We reached a conclusion that we will not proceed with the custom project.
 
 Week 2
-- We discussed among ourselves and finalised a topic for our project. 
-- I read some information related to our project's topic - chatbots. 
+- We discussed among ourselves and finalised a topic for our project i.e., chatbot.
+- I read some information related to our project's topic i.e., chatbot. 
 - I also went through some of the research papers related to chatbots to find out the latest developments in that field so as to give us an idea for our objectives. 
 - We also decided which industry we would be developing our chatbot for. 
 - We reached a common conclusion that we would be designing our chatbot for the entertainment industry after disucssions and weighing both pros and cons of developing chatbot for other industries such as education and travel/tourism.
