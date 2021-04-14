@@ -71,3 +71,34 @@ def send_email(attendees, chatroom_url, movie, date, time):
   mailServer.login(login, password)
   mailServer.sendmail(fro, attendees, msg.as_string())
   mailServer.close()
+
+def send_email_request(fro_email, to_email, url_link):
+  CRLF = "\r\n"
+  login = "chatbot9900@gmail.com"
+  password = "Chat#9900"
+  # attendees = ["chatbot9900@gmail.com", "e.life.hacker@gmail.com"]
+  organizer = "ORGANIZER;CN=organiser:mailto:chatbot9900"+CRLF+" @gmail.com"
+  fro = "Chatbot9900 <chatbot9900@gmail.com>"
+
+  eml_body = "User with email id "+fro_email+" would like to add you as a friend. Click to confirm "+ url_link
+  eml_body_bin = "This is the email body in binary - two steps"
+  msg = MIMEMultipart('mixed')
+  msg['Reply-To']=fro
+  msg['Date'] = formatdate(localtime=True)
+  msg['Subject'] = "friend request"
+  msg['From'] = fro
+  msg['To'] = to_email
+    
+  part_email = MIMEText(eml_body,"html")  
+  
+  msgAlternative = MIMEMultipart('alternative')
+  msg.attach(msgAlternative)
+  msgAlternative.attach(part_email)
+
+  mailServer = smtplib.SMTP('smtp.gmail.com', 587)
+  mailServer.ehlo()
+  mailServer.starttls()
+  mailServer.ehlo()
+  mailServer.login(login, password)
+  mailServer.sendmail(fro, to_email, msg.as_string())
+  mailServer.close()
