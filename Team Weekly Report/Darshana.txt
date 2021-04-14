@@ -37,5 +37,12 @@ Week 7
 
 Week 8
 - Prepared for Progressive Demo B.
+- Edited our website's pages to which the chatbot would redirect the users based on their queries. This is related to the frontend part of our project which is basically creating a website and webpages in order to more effectively show how our chatbot (FlixBot) works.
 - Integrated the web pages created with our chatbot - FlixBot with Janvi.
 - Attended the demo with all my group members during Week 8 lab on Wednesday.
+
+Week 9
+- Experimented with Google Cloud, Datalab, Datalab Notebooks and Dialogflow by creating a separate chatbot database and chatbot. I referred to Google Cloud's documentation on how to create a chatbot agent by using Dialogflow. This is related to the backend part of our project which involves coding and training the chatbot.
+- Created a report that contained visualisations of user data. The report represents the user behaviour i.e., how many hours they spend on watching TV shows/movies, which TV shows/movies they watch the most, etc. This is part of one of our objectives related to Business Intelligence (BI). To create these data visualisations, we used Tableau.
+
+Week 10
