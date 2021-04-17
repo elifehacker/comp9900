@@ -53,3 +53,34 @@ Week 6 Report
 4. Provided inputs to create the data model for the project database
 5. Conducted sessions and steered discussions to agree on a design for the User Login and authentication mechanism for our Chatbot
 6. Explored Wix platform and suggested possible web pages we needed to create for subscription upgrades etc.
+
+Week 7 Report
+-------------
+1. Created a power point presentation for the project Demo scheduled for week 8
+2. Organized workshop to plan and strategize for Demo 2 
+3. Reviewed the data model for the project database and recommendation module
+4. Provided inputs and drafted requirements for the Recommendation Module
+5. Tested the User Login and authentication mechanism for our Chatbot, identified defects and suggested improvements
+6. Incorporated JIRA and user story updates based on feedback from retrospective 1
+
+Week 8 Report
+-------------
+1. Presented the Demo 2 along with other team members during Week 8 Lab
+2. Created and documented the Sprint 2 retrospective report
+3. Conducted Sprint planning session for Sprint 3 which will be our final sprint for the project
+4. Organize scrum meetings for Sprint 3 to track progress and clear roadblocks for the team including any conflict resolution
+5. Conducted sessions and steered discussions to agree on a design for the BI module
+6. Tested various functionalities of the project, identified defects and suggested improvements
+
+Week 9 Report
+-------------
+1. Created a template for the final project report
+2. Organized workshop to plan and strategize for final Demo
+3. Continued to test various functionalities of the project
+4. Created a power point presentation for the final project Demo scheduled for week 10
+5. Reviewed progress on the Recommendation and BI module including a new feature on Friends suggestion
+6. Started collating details for the final Project Report
+
+Week 10 Report
+-------------
+1.
