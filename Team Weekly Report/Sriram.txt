@@ -1,3 +1,8 @@
+Name - Sriram Murali
+ID - z5232023
+COMP9900 - Computer Science / Information Technology Project
+Term T1 2021
+
 Week 1 Report
 -------------
 1. We formed a group and got to know each other. 
