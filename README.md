@@ -47,3 +47,16 @@ npm install -g @angular/cli@6.0.8
 ng build --prod
 gcloud app deploy
 ```
+
+
+### to run
+
+    1. run flask-chat-app-article-master on your local server
+
+    2. run ngrok on your localserver, copy the web http address (not https)
+
+    3. Update the public_url in webhook, then run on datalab
+
+    4. run ngrok tunneling on datalab
+
+    5. update fulfilment in diaflow

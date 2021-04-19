@@ -1,0 +1,94 @@
+{
+  "id": "e038dea7-7a57-47d5-8e09-98fa0833ee69",
+  "name": "schedule-movie-confirm",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "confirm",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": true,
+          "prompts": [],
+          "value": "$confirm",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "topic",
+          "dataType": "@Topic",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "schedule",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "No",
+          "userDefined": true,
+          "alias": "confirm",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 1,
+      "id": "6c193182-86bf-4815-9b88-5a400ad3b330",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Yes",
+          "userDefined": true,
+          "alias": "confirm",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "36da95f4-2e9a-4b60-92ee-fce9c48d6225",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

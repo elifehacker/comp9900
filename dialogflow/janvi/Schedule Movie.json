@@ -1,0 +1,347 @@
+{
+  "id": "088680f2-046d-4c8a-bc7b-7e8759a6a2be",
+  "name": "Schedule: Movie",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "schedule-movie-confirm",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "date",
+          "dataType": "@sys.date",
+          "isList": true,
+          "required": true,
+          "prompts": [
+            "What date should I schedule the movie?"
+          ],
+          "value": "$date",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "time",
+          "dataType": "@sys.time",
+          "isList": true,
+          "required": true,
+          "prompts": [
+            "What time would you want me to schedule the movie?"
+          ],
+          "value": "$time",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "movie",
+          "dataType": "@sys.any",
+          "isList": true,
+          "required": true,
+          "prompts": [
+            "Which movie should I schedule for you?"
+          ],
+          "value": "$movie",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "friend",
+          "dataType": "@sys.person",
+          "isList": true,
+          "required": true,
+          "prompts": [
+            "With whom do you want to see the movie?"
+          ],
+          "value": "$friend",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Do you want me to confirm watching movie $movie with friend $friend on $date at $time?"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Yes, Confirm"
+                    },
+                    {
+                      "text": "No, I want to reschedule"
+                    },
+                    {
+                      "text": "Cancel the meeting"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "No, I want to reschedule",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4f53c8f6-564d-4c85-b626-7c1168e1a170",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i would like to schedule a movie",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bb785cc9-8eb6-4eae-9207-3d513d64b61b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can i schedule a movie",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f0b9e8cb-a696-4e5c-8507-d86b4cb65f93",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want to schedule a movie",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "659d9ab8-a2ef-4e06-a7d2-e5e5dcc356d0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "schedule movie",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e99989bb-48c6-4e77-97e8-04e0d1a31a17",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "schedule a TV show",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4c97d43e-6d0f-4f1e-ac31-78223f864a4a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "schedule a show",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f36b451e-afc7-4f62-bf54-8c2d8357fa1c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "schedule a movie",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dd5a095f-8fab-40e4-abc1-1ab748a2570d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "schedule",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "74eec1d7-2cd4-43aa-b1b9-660791285fa6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Schedule a TV show/Movie Meeting",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b6862d02-fe1c-499a-8a2b-1cac3e0967e4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Schedule watching  ",
+          "userDefined": false
+        },
+        {
+          "text": "movie name",
+          "userDefined": true,
+          "alias": "movie",
+          "meta": "@sys.any"
+        },
+        {
+          "text": " with ",
+          "userDefined": false
+        },
+        {
+          "text": "Dr Who",
+          "userDefined": true,
+          "alias": "friend",
+          "meta": "@sys.person"
+        },
+        {
+          "text": " at ",
+          "userDefined": false
+        },
+        {
+          "text": "10 AM",
+          "userDefined": true,
+          "alias": "time",
+          "meta": "@sys.time"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "tomorrow",
+          "userDefined": true,
+          "alias": "date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "a65cfc02-188d-4e0f-9675-2087d98bb62e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I would like to watch a movie ",
+          "userDefined": false
+        },
+        {
+          "text": "name",
+          "userDefined": true,
+          "alias": "movie",
+          "meta": "@sys.any"
+        },
+        {
+          "text": " with my friend ",
+          "userDefined": false
+        },
+        {
+          "text": "name",
+          "userDefined": true,
+          "alias": "friend",
+          "meta": "@sys.person"
+        },
+        {
+          "text": " at ",
+          "userDefined": false
+        },
+        {
+          "text": "3 PM",
+          "userDefined": true,
+          "alias": "time",
+          "meta": "@sys.time"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "today",
+          "userDefined": true,
+          "alias": "date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "2123e3a2-6aca-4be9-b735-e1c880b22809",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

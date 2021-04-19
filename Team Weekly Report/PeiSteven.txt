@@ -14,3 +14,22 @@ Week4
 
 This week I started playing with the Dialog Flow service. I was able to follow the documentation building a chatbot with the sample code successfully. Then I kept reading source code and the documents learning about how to configure it. By the end of the week. I was able to 1. load the dataset file into gcp datastore 2. give a random movie recommendation in the chatbot 3. create new intents that schedule session to watch a movie with a friend in the chatbot. The changes were done in the GCP console, DialogFlow and in the GCP datalab which run a tunneling app and a flask app. The flask app uses a webhook connecting to the chatbot. It also talk to the datastore nosql backend. This allows flexibilities and creativities to the project.  
 
+Week5
+
+This week I delivered a demo with the rest of team, showcasing what we have achieved. This include some dialogflows, the backends architecture and the dialog flows chart. It went well overall. We also did a review on the first sprint. We agreed on to set earlier deadlines in the next sprint and be more involved in managing jira items. There was also some discussions. It is week 5 and I am the only one who configured the backend of the system. Hence, I suggested everyone to set up the backend as dev environments, because there are significant amount of work. However, it faced some resisitant that Janvi believe tasks could be divided up. She made a great interactive experience within dialogflow, so I was convinced that it was okay to do things as it is eventually. However, I am still concerned about others contribution, because most other members are inexperienced with github so it is difficult to see their progress. I went on to implement sending email inviting to attendees of a scheduled session. The attendee of the session would also be given a link to a simple chatroom implemented with flask. 
+
+Week6
+
+This week I implemented user log in feature in from the chatbot by validating its username and password in the backend. It was done by checking the credential against saved data in the gcp datastore. Then the backend webhook sets a context parameter which could be retrieved in the chatbot in further conversations. 
+
+Week7
+
+This week I integrated the feature I implemented with the frontend Janvi implemented. I also made the meeting scheduling checking the relationship between users before sending out the invite. This was done by checking against the tables in GCP datastore. I also updated the python code that sends email so the meeting invite has the correct time and title. Aside from this, I also walked Janvi through how to use git. After convincing each team member should own the feature that each is developing rathering than having me incharge of the backend alone, I walked the team through the backend I worked on during the lab session, so they could also be autonomous. 
+
+Week8
+
+This week we did the second demo together. Aside from a slight techical difficulty, the demo went well. Team members also reviewed the retrospective report together. 
+
+Week9 WIP
+
+This week I implemented a feature to sent friend requests. 

@@ -1,0 +1,266 @@
+{
+  "id": "3ce389bc-c269-4827-b934-0a28d9cdefea",
+  "name": "Recommendation:",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Sure! I can help you with that. Here are some of the top movies/TV shows that are currently trending at your location. Pick something that you would like to watch:"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "link": "https://example.com",
+                      "text": "Recommended TV show/movie 1"
+                    },
+                    {
+                      "text": "Recommended TV show/movie 2",
+                      "link": "https://example.com"
+                    },
+                    {
+                      "link": "https://example.com",
+                      "text": "Recommended TV show/movie 3"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Back to Main menu"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "TV shows & Movie Recommendation",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9133cea5-2eb2-470a-bc09-e88a8af4e1a3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "give me a recommendation",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c6d99903-9d51-4249-b867-e1b92c4b2949",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "give a recommendation please",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0363dbb4-9ce1-4426-99ba-f51d4fb2ea88",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you recommend a show?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c38023c9-264f-416e-99b8-d952f09c5ac2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you recommend a TV show?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ef208ed0-ff41-4c5d-a5a5-7eca5b7f12a0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you recommend a movie?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a554d07e-c86d-4e7b-9e3a-a1e8e4e6be07",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you recommend a movie/TV show?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "77a91c2d-5b46-4551-8ddb-9dc519b755e5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "recommend something",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "76a15427-7de5-4a23-bb1d-dbfec7ff0736",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "recommend",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "92add56f-e2a8-4cb1-ae6a-b294ac66c8d1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you recommend something to watch?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8440891c-a50d-457b-8e22-f119daefe401",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What should I watch?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ffcd1057-62e0-4d52-947e-f2bf0d6a9dec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to watch a show",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d25dcd9b-134f-4900-8997-01a0ad9d892e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to watch a TV show",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "31ddfa9b-b79d-4bdc-88a8-d6af013096d2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to watch a movie",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "41359d5f-cd1a-4a59-b7a2-8f9ff77e4bd6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to watch a movie/TV show",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cc0134ff-5b17-4d71-b9ee-2a0d48c43039",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
