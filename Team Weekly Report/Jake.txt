@@ -16,3 +16,23 @@ We keep modifying the proposal, and hand in before the deadline.
 Week 4
 
 Team members did a lot of reaserch on the dialogflow back-end, I made a simple webpage for the project demo.
+
+Week 5
+
+Team implemented some of the front-end features, I started working on the recommendation module, did some reasearch on the commonly uesd algorithms.
+
+Week 7
+
+Team was implementing features gradually, I generated and gathered some useful datasets for the project.
+
+Week 8
+
+Team implemented most of the features, I completed the recommendation part on my local machine, but haven't merged into the project.
+
+Week 9
+
+Team implementing the last bit of the features(mainly BI related), I implemented a new feature that recommending new friends to the user based on their similarity, updated the front-end part a bit as well(new 'button').
+
+Week 10
+
+Practiced the final demo with team, all the features merged into one version and tested working. Writing for the final report.
