@@ -35,4 +35,4 @@ Team implementing the last bit of the features(mainly BI related), I implemented
 
 Week 10
 
-Practiced the final demo with team, all the features merged into one version and tested working. Writing for the final report.
+Practiced the final demo with team, all the features merged into Steven's version and tested working. Writing for the final report.
