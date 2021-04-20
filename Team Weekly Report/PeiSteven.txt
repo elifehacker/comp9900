@@ -30,6 +30,10 @@ Week8
 
 This week we did the second demo together. Aside from a slight techical difficulty, the demo went well. Team members also reviewed the retrospective report together. 
 
-Week9 WIP
+Week9
 
-This week I implemented a feature to sent friend requests. 
+This week I implemented a feature to sent friend requests. I also walked Jake through how to setup the backend. 
+
+Week10 WIP
+
+This week I joined a session with Janvi and Darshana about how to implement the BI reporting feature. I also showed Jake how to do a merge in git. Technically, I improved the code by removing a gloable var and showing user email upon finding firends. Documentation wise, I created a document Software Packaging and Installation Instructions Manual.
