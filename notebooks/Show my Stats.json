@@ -1,0 +1,123 @@
+{
+  "id": "cbbc4920-f41d-404a-9a9b-0ca00ff70e9a",
+  "name": "Show my Stats",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "show stats",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ee6a7010-4f06-44f3-bd99-c2f88c54d57c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "my stats",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3a6b7ab7-7f74-49dd-892e-5cbeabe2377a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "usage",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f4569603-9214-4ed4-b228-de5d774854f3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "analytics",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e6ed0c4b-04d6-4de5-93df-a007792bd1fa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "statistics",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "70b0baf0-97ab-4345-a93a-f0dbf73d68af",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "stats",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f6113e2d-423e-4c62-a8b9-3eeac4bd1ddb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Show my stats",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e7300da0-76db-4bf2-b632-a61ed2bebb4a",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}
