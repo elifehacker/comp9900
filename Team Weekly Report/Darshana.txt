@@ -51,3 +51,7 @@ Week 9
 - Created a report that contained visualisations of user data. The report represents the user behaviour i.e., how many hours they spend on watching TV shows/movies, which TV shows/movies they watch the most, etc. This is part of one of our objectives related to Business Intelligence (BI). To create these data visualisations, we used Tableau.
 
 Week 10
+- Worked on the 'Show my Stats' feature of the chatbot. I used Google Cloud Platform, Cloud Console and various notebooks to integrate this feature in the backend with the rest of the code.
+- Tested the 'Show my Stats' feature with the chatbot on the website created (front end).
+- Arranged a meeting and assisted with an issue faced with the recommendation module along with Steven, Jake and Janvi.
+- Contributed to the report.
